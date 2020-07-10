@@ -7077,10 +7077,10 @@ gatsby-plugin-manifest@^2.2.4:
     semver "^5.7.1"
     sharp "^0.25.1"
 
-gatsby-plugin-netlify-cms@^4.1.9:
-  version "4.3.10"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.3.10.tgz#b17206d4a74c6a9aeec746ea5c23ccb6a63faf79"
-  integrity sha512-NLXc7Q6zLM5cHiIrsEkpBamQjuKsNJyUi1UsqFwKOpT7Uxs6Smp6NpCf1JKY8vTiqBQCJ07wL8KnRh+tsrtukQ==
+gatsby-plugin-netlify-cms@^4.3.11:
+  version "4.3.11"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-netlify-cms/-/gatsby-plugin-netlify-cms-4.3.11.tgz#c576d9a293b83e6dccc17c0f1f55c99582be8aa8"
+  integrity sha512-RXObpig8ixXwqEDWux4zoEmNgtuo6c852IlwM9n5ai+ZApGSID+zpS2c+iK8LWQd0LhXxJM6Hyhk8psLuA9CDQ==
   dependencies:
     "@pieh/friendly-errors-webpack-plugin" "1.7.0-chalk-2"
     copy-webpack-plugin "^5.1.1"
@@ -10873,7 +10873,7 @@ neo-async@^2.5.0, neo-async@^2.6.1:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
 
-netlify-cms-app@^2.9.7:
+netlify-cms-app@^2.12.16:
   version "2.12.16"
   resolved "https://registry.yarnpkg.com/netlify-cms-app/-/netlify-cms-app-2.12.16.tgz#e5b1823c010900526913556613ef8e1fe2634cd1"
   integrity sha512-uSPCb4bfK04TEAQGspZykOYk0/UUczByI3G3DlMzrEPh40Kw2Z/EA4ETDyTiMNzhZNBoHtVQSFvw/UhwFgoRtw==
