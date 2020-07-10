@@ -6,6 +6,8 @@ thumbnail: assets/img/dockerubuntu.jpg
 category: dev
 background: "#637a91"
 ---
+![Docker](/assets/img/dockerubuntu.jpg)
+
 ### Introdução
 
 O primeiro registro sobre containers refere-se ao croot e surgiu em 1979 com o desenvolvimento do [Unix V7](https://en.wikipedia.org/wiki/Version_7_Unix). 
