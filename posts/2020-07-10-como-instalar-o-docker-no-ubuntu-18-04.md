@@ -211,7 +211,7 @@ O comando docker run, sobe um container baseado na imagem do ubuntu e as flags -
 ### Docker - Gerenciamento de Containers
 #### Agora vaos conhecer alguns comandos para gerenciar nosso containers ativos, inativos.
 
-##### Comando "ps" e "ps -a":
+#### Comando "ps" e "ps -a":
 ```
 $ docker ps
 ```
