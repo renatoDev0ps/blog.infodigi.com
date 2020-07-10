@@ -1,0 +1,42 @@
+backend:
+  name: github
+  repo: renatoDev0ps/blog.infodigi.com
+  branch: master
+  site_domain: https://devopstips.ga/
+
+publish_mode: editorial_workflow
+media_folder: "static/assets/img"
+public_folder: "assets/img"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+      - {label: "Image", name: "thumbnail", widget: "image"}
+      - {
+          label: "Category", 
+          name: "category", 
+          widget: "select",
+          options: ["jekyll", "css", "js", "html", "svg", "dev", "misc"]
+        }
+      - {
+          label: "Background", 
+          name: "background", 
+          widget: "select",
+          options: [
+            {label: "Jekyll", value: "#b31917"},
+            {label: "CSS", value: "#2da0c3"},
+            {label: "JS", value: "#d6ba32"},
+            {label: "HTML", value: "#eb7728"},
+            {label: "SVG", value: "#7d669e"},
+            {label: "Dev", value: "#637a91"},
+            {label: "Misc", value: "#7aab13"},
+          ]
+        }
+      - {label: "Body", name: "body", widget: "markdown"}
